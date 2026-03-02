@@ -28,7 +28,7 @@
     "@nestjs/swagger": "^11.2.5",
     "@nestjs/typeorm": "^11.0.0",
     "@polymarket/clob-client": "^5.2.1",
-    "polymarket-provider": "^1.4.7",
+    "odds-analyzer": "^2.2.3",
     "axios": "^1.13.4",
     "cheerio": "^1.2.0",
     "date-fns": "^4.1.0",
