@@ -1,5 +1,5 @@
 import { Injectable, Logger } from '@nestjs/common';
-import { PolymarketClient } from 'src/clients/polymarket.client';
+import { PolymarketClient } from 'src/security/clients/polymarket.client';
 import { CopyTradingStrategy, NormalizedTrade } from './copy-trading.strategy';
 import { BotPosition } from './entities/bot-position.entity';
 import { LeaderTrade, TradeStatus } from './entities/leader-trade.entity';

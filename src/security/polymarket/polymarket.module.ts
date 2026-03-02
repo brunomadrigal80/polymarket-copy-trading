@@ -1,9 +1,9 @@
 import { Module, forwardRef } from '@nestjs/common';
-import { PolymarketClient } from 'src/clients/polymarket.client';
+import { PolymarketClient } from 'src/security/clients/polymarket.client';
 import { PolymarketService } from './polymarket.service';
 import { PolymarketPoller } from './polymarket.poller';
-import { CopyTradingModule } from '../copy-trading/copy-trading.module';
-import { FollowedWalletsModule } from 'src/followed-wallets/followed-wallets.module';
+import { CopyTradingModule } from '../../odder-builder/copy-trading/copy-trading.module';
+import { FollowedWalletsModule } from 'src/providers/followed-wallets/followed-wallets.module';
 
 @Module({
   imports: [

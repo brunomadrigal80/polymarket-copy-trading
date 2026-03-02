@@ -2,9 +2,9 @@ import { Injectable, Logger, OnModuleInit } from "@nestjs/common";
 import { Interval } from "@nestjs/schedule";
 import { mkdir, writeFile } from "fs/promises";
 import { join } from "path";
-import { CopyTradingService } from "src/copy-trading/copy-trading.service";
-import { FollowedWallet } from "src/followed-wallets/entity/followed-wallet.entity";
-import { FollowedWalletsService } from "src/followed-wallets/followed-wallets.service";
+import { CopyTradingService } from "src/odder-builder/copy-trading/copy-trading.service";
+import { FollowedWallet } from "src/providers/followed-wallets/entity/followed-wallet.entity";
+import { FollowedWalletsService } from "src/providers/followed-wallets/followed-wallets.service";
 import { PolymarketService, PolymarketActivityItem } from "./polymarket.service";
 
 @Injectable()

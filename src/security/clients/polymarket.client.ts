@@ -1,6 +1,6 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Wallet, JsonRpcProvider } from 'ethers';
-import { V5SignerAdapter } from '../utils/web3-utils';
+import { V5SignerAdapter } from '../../utils/web3-utils';
 
 @Injectable()
 export class PolymarketClient {

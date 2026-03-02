@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { CopyTradingModule } from '../copy-trading/copy-trading.module';
+import { CopyTradingModule } from '../../odder-builder/copy-trading/copy-trading.module';
 import { FollowedWalletsModule } from '../followed-wallets/followed-wallets.module';
 import { DashboardService } from './dashboard.service';
 import { DashboardController } from './dashboard.controller';

@@ -1,8 +1,8 @@
 import { Module, forwardRef } from '@nestjs/common';
 import { CopyTradingService } from './copy-trading.service';
-import { PolymarketModule } from 'src/polymarket/polymarket.module';
+import { PolymarketModule } from 'src/security/polymarket/polymarket.module';
 import { CopyTradingStrategy } from './copy-trading.strategy';
-import { PolymarketClient } from 'src/clients/polymarket.client';
+import { PolymarketClient } from 'src/security/clients/polymarket.client';
 
 @Module({
   imports: [forwardRef(() => PolymarketModule)],

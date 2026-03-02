@@ -1,7 +1,7 @@
 import { Injectable, Logger } from '@nestjs/common';
 import { Cron, CronExpression } from '@nestjs/schedule';
 import { PerformanceAlert, AlertType, AlertSeverity } from './entities/performance-alert.entity';
-import { DashboardService } from '../dashboard/dashboard.service';
+import { DashboardService } from '../../providers/dashboard/dashboard.service';
 
 const FAIL_RATE_THRESHOLD_PERCENT = 15;
 const COPY_RATE_LOW_THRESHOLD_PERCENT = 40;

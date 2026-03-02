@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { DashboardModule } from '../dashboard/dashboard.module';
+import { DashboardModule } from '../../providers/dashboard/dashboard.module';
 import { AlertsService } from './alerts.service';
 import { AlertsController } from './alerts.controller';
 

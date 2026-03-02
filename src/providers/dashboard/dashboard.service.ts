@@ -1,8 +1,8 @@
 import { Injectable } from '@nestjs/common';
 import { subDays } from 'date-fns';
-import { TradeStatus } from '../copy-trading/entities/leader-trade.entity';
+import { TradeStatus } from '../../odder-builder/copy-trading/entities/leader-trade.entity';
 import { startOfWeek, subWeeks, format } from 'date-fns';
-import { CopyTradingService } from '../copy-trading/copy-trading.service';
+import { CopyTradingService } from '../../odder-builder/copy-trading/copy-trading.service';
 import { FollowedWalletsService } from '../followed-wallets/followed-wallets.service';
 
 export interface DashboardStats {
